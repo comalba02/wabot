@@ -51,7 +51,7 @@ const leerMensajesDesdeExcel = () => {
 /**
  * ✅ Flujo principal
  */
-const flowPrincipal = addKeyword(['iniciar', 'ejecutar'])
+const flowPrincipal = addKeyword(['3nv1ar', '3j3cut4r', 'c0rr3r', '1n1c14r'])
     .addAnswer('✅ Iniciando reenvío de mensajes desde Excel...')
     .addAction(
         async (ctx, { provider }) => {
