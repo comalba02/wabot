@@ -1,0 +1,14 @@
+El documento de excel "mensajes.xls" es la plantilla para
+registrar los destinatarios de la campaña
+
+to: numero de celular
+text: mensaje
+url: link de la campaña
+imagePath: ruta de la imagen ej: imagenes/imagen.jpg
+videoPath: ruta del video ej: videos/video.mp4
+audioPath: ruta del audio ej: audios/audio.mp3
+filePath: ruta del archivo ej: archivos/archivo.pdf
+
+las imagenes, videos, audios o archivos son opcionales, sino se registran en el excel no se envian.
+
+Los mensajes entre un destinatario y otro tienen un tiempo de espera de 25 segundos.

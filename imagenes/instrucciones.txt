@@ -1,0 +1,6 @@
+Aqui debe ubicar los archivos con extension .jpg ,png
+
+ejemplo: fotografia.jpg
+	 paisaje.png
+	 poster.jpg
+	 cartel.png

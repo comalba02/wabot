@@ -1,0 +1,5 @@
+Aqui debe ubicar los archivos con extension .mp3
+
+ejemplo: cancion.mp3
+	 notificacion.mp3
+	 aviso.mp3
