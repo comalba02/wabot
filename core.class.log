@@ -1,0 +1,57 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573508207373@s.whatsapp.net',
+    fromMe: false,
+    id: '3A68F43E051765D4B241',
+    participant: undefined
+  },
+  messageTimestamp: 1759077303,
+  pushName: 'Marco Alberto Coronado B',
+  broadcast: false,
+  message: Message {
+    conversation: 'Iniciar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Iniciar',
+  from: '573508207373'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3d5e3fa7-436d-4dfd-9998-904d2e63ae8a',
+  keyword: 'key_836ff042-ba0b-4050-9d85-e468fb0c01f4',
+  answer: '✅ Iniciando reenvío de mensajes desde Excel...',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3090cbf04c51b9d697c6ad669e226794'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_71b0fbf8-1c13-4ee3-941b-4d8d72961529',
+  keyword: 'ans_3d5e3fa7-436d-4dfd-9998-904d2e63ae8a',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1153184a2f82880b75b78ca6e2d4c5df'
+}
