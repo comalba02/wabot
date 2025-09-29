@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573508207373@s.whatsapp.net',
     fromMe: false,
-    id: '3ACCB5D0C7AFAA12BFC1',
+    id: '3AD1205BBEA240969437',
     participant: undefined
   },
-  messageTimestamp: 1759105795,
+  messageTimestamp: 1759106083,
   pushName: 'Marco Alberto Coronado B',
   broadcast: false,
   message: Message {
@@ -20,8 +20,65 @@
   from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_31ba8cf8-1ae8-4c27-bf40-a1848860150b',
-  keyword: 'key_fbce086c-5492-45f8-894d-e14b2f2dc08a',
+  ref: 'ans_9811c7e6-5f49-4a98-8ec2-4c308595f9b0',
+  keyword: 'key_8a7c1433-b309-4e46-a452-b27ca2b25ef3',
+  answer: '🌎 Ingresa el código de país para los números (Ej: 57 para Colombia).',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9a6d342afef5142b2798c555e3c91669'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573508207373@s.whatsapp.net',
+    fromMe: false,
+    id: '3A5010480494FAD9787D',
+    participant: undefined
+  },
+  messageTimestamp: 1759106091,
+  pushName: 'Marco Alberto Coronado B',
+  broadcast: false,
+  message: Message {
+    conversation: '57',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '57',
+  from: '573508207373'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4f66eb44-cbf6-4236-a961-cc185b10b485',
+  keyword: 'ans_9811c7e6-5f49-4a98-8ec2-4c308595f9b0',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e0d40cd00f6e409aca1f40cd62144580'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76cc54c7-c979-423c-b975-40eaf4d7c7c0',
+  keyword: 'ans_4f66eb44-cbf6-4236-a961-cc185b10b485',
   answer: '⏱️ ¿Cuántos segundos deseas de espera entre mensajes? (Ej: 10)',
   options: {
     media: null,
@@ -35,16 +92,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd9cb83d483a7818096ebe0a7d2104c02'
+  refSerialize: '6ca14cb3a2c7e39f755657b834fd9685'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573508207373@s.whatsapp.net',
     fromMe: false,
-    id: '3A7ECEE5EFC240DC129D',
+    id: '3A0159C6246350317F49',
     participant: undefined
   },
-  messageTimestamp: 1759105802,
+  messageTimestamp: 1759106100,
   pushName: 'Marco Alberto Coronado B',
   broadcast: false,
   message: Message {
@@ -59,8 +116,8 @@
   from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_854816e8-911e-459e-a6e7-9258c1a3bd87',
-  keyword: 'ans_31ba8cf8-1ae8-4c27-bf40-a1848860150b',
+  ref: 'ans_a488b6a7-76c5-4ada-be39-4a372a21a18d',
+  keyword: 'ans_76cc54c7-c979-423c-b975-40eaf4d7c7c0',
   answer: '__call_action__',
   options: {
     media: null,
@@ -74,5 +131,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '6cc8ab57f46c6fe41c01d1f4fa9bc2e9'
+  refSerialize: '0fcacd2762ea2ceb0b879834217f050e'
 }

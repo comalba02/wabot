@@ -9,8 +9,8 @@ const fs = require('fs');
 // 🔁 Delay configurable por el usuario
 let delayMs = 25000; // valor por defecto en milisegundos (25 segundos)
 
-// codigo de pais
-const pais = 57;
+// codigo de pais por defecto
+let pais = 57;
 
 // ✅ Leer archivo Excel con campos personalizados
 const leerMensajesDesdeExcel = () => {
@@ -46,12 +46,24 @@ const leerMensajesDesdeExcel = () => {
         });
 };
 
-// ✅ Flujo principal con resumen y control de delay
+// ✅ Flujo principal con resumen y control de delay y pais configurables
 const flowPrincipal = addKeyword(['3nv1ar', '3j3cut4r', 'c0rr3r', '1n1c14r'])
+    .addAnswer('🌎 Ingresa el código de país para los números (Ej: 57 para Colombia).', { capture: true })
+    .addAction(async (ctx, { flowDynamic }) => {
+        const inputPais = ctx.body.trim();
+        const codigoPais = parseInt(inputPais);
+
+        if (!isNaN(codigoPais) && codigoPais >= 1 && codigoPais <= 999) {
+            pais = codigoPais;
+            await flowDynamic(`✅ Código de país configurado a +${pais}.`);
+        } else {
+            await flowDynamic(`❌ Código inválido. Usando código de país por defecto +${pais}.`);
+        }
+    })
     .addAnswer('⏱️ ¿Cuántos segundos deseas de espera entre mensajes? (Ej: 10)', { capture: true })
     .addAction(async (ctx, { flowDynamic, provider }) => {
-        const input = ctx.body.trim();
-        const segundos = parseInt(input);
+        const inputDelay = ctx.body.trim();
+        const segundos = parseInt(inputDelay);
 
         if (!isNaN(segundos) && segundos >= 1) {
             delayMs = segundos * 1000;
@@ -71,6 +83,7 @@ const flowPrincipal = addKeyword(['3nv1ar', '3j3cut4r', 'c0rr3r', '1n1c14r'])
         console.log('==================== RESUMEN ====================');
         console.log(`🧾 Total destinatarios: ${totalDestinatarios}`);
         console.log(`⏱️ Delay configurado: ${delaySegundos} segundos`);
+        console.log(`🌎 Código de país usado: +${pais}`);
         console.log(`🕒 Tiempo estimado total: ${tiempoEstimadoTotal} segundos`);
         console.log('=================================================');
 
