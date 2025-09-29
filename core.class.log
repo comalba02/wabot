@@ -2,31 +2,31 @@
   key: {
     remoteJid: '573508207373@s.whatsapp.net',
     fromMe: false,
-    id: '3A68F43E051765D4B241',
+    id: '3A8989BCAB54DAD3CB6C',
     participant: undefined
   },
-  messageTimestamp: 1759077303,
+  messageTimestamp: 1759104865,
   pushName: 'Marco Alberto Coronado B',
   broadcast: false,
   message: Message {
-    conversation: 'Iniciar',
+    conversation: '1n1c14r',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Iniciar',
+  body: '1n1c14r',
   from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3d5e3fa7-436d-4dfd-9998-904d2e63ae8a',
-  keyword: 'key_836ff042-ba0b-4050-9d85-e468fb0c01f4',
-  answer: '✅ Iniciando reenvío de mensajes desde Excel...',
+  ref: 'ans_0fb0ca57-b6d1-4f44-b15e-97354c74afac',
+  keyword: 'key_2bafffc8-5e49-44e5-9986-fedd7d7c36bd',
+  answer: '⏱️ ¿Cuántos segundos deseas de espera entre mensajes? (Ej: 10)',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
@@ -35,11 +35,32 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '3090cbf04c51b9d697c6ad669e226794'
+  refSerialize: '2e43c8d21465576a51d75789e0996ce0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573508207373@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB7D48326D653A6DC72',
+    participant: undefined
+  },
+  messageTimestamp: 1759104870,
+  pushName: 'Marco Alberto Coronado B',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '15',
+  from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_71b0fbf8-1c13-4ee3-941b-4d8d72961529',
-  keyword: 'ans_3d5e3fa7-436d-4dfd-9998-904d2e63ae8a',
+  ref: 'ans_b2207066-1ef2-44bc-bb30-a8405d6bab59',
+  keyword: 'ans_0fb0ca57-b6d1-4f44-b15e-97354c74afac',
   answer: '__call_action__',
   options: {
     media: null,
@@ -53,5 +74,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1153184a2f82880b75b78ca6e2d4c5df'
+  refSerialize: '9625bdf3a7a97f856c5e311186669ed8'
 }
