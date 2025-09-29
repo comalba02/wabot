@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573508207373@s.whatsapp.net',
     fromMe: false,
-    id: '3A8989BCAB54DAD3CB6C',
+    id: '3ACCB5D0C7AFAA12BFC1',
     participant: undefined
   },
-  messageTimestamp: 1759104865,
+  messageTimestamp: 1759105795,
   pushName: 'Marco Alberto Coronado B',
   broadcast: false,
   message: Message {
@@ -20,8 +20,8 @@
   from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0fb0ca57-b6d1-4f44-b15e-97354c74afac',
-  keyword: 'key_2bafffc8-5e49-44e5-9986-fedd7d7c36bd',
+  ref: 'ans_31ba8cf8-1ae8-4c27-bf40-a1848860150b',
+  keyword: 'key_fbce086c-5492-45f8-894d-e14b2f2dc08a',
   answer: '⏱️ ¿Cuántos segundos deseas de espera entre mensajes? (Ej: 10)',
   options: {
     media: null,
@@ -35,32 +35,32 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2e43c8d21465576a51d75789e0996ce0'
+  refSerialize: 'd9cb83d483a7818096ebe0a7d2104c02'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573508207373@s.whatsapp.net',
     fromMe: false,
-    id: '3AB7D48326D653A6DC72',
+    id: '3A7ECEE5EFC240DC129D',
     participant: undefined
   },
-  messageTimestamp: 1759104870,
+  messageTimestamp: 1759105802,
   pushName: 'Marco Alberto Coronado B',
   broadcast: false,
   message: Message {
-    conversation: '15',
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '15',
+  body: '5',
   from: '573508207373'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b2207066-1ef2-44bc-bb30-a8405d6bab59',
-  keyword: 'ans_0fb0ca57-b6d1-4f44-b15e-97354c74afac',
+  ref: 'ans_854816e8-911e-459e-a6e7-9258c1a3bd87',
+  keyword: 'ans_31ba8cf8-1ae8-4c27-bf40-a1848860150b',
   answer: '__call_action__',
   options: {
     media: null,
@@ -74,5 +74,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '9625bdf3a7a97f856c5e311186669ed8'
+  refSerialize: '6cc8ab57f46c6fe41c01d1f4fa9bc2e9'
 }

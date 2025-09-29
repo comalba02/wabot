@@ -9,6 +9,9 @@ const fs = require('fs');
 // 🔁 Delay configurable por el usuario
 let delayMs = 25000; // valor por defecto en milisegundos (25 segundos)
 
+// codigo de pais
+const pais = 57;
+
 // ✅ Leer archivo Excel con campos personalizados
 const leerMensajesDesdeExcel = () => {
     const rutaArchivo = path.join(__dirname, 'mensajes.xlsx');
@@ -19,7 +22,7 @@ const leerMensajesDesdeExcel = () => {
     return datos
         .filter(item => item.to)
         .map(item => {
-            const numero = `57${String(item.to).trim()}@s.whatsapp.net`;
+            const numero = `${pais}${String(item.to).trim()}@s.whatsapp.net`;
 
             const text = item.text ? String(item.text).trim() : null;
             let url = item.url ? String(item.url).trim() : null;
